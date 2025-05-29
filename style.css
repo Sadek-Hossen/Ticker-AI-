@@ -1,0 +1,13 @@
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .white *));
+
+@layer utilities{
+    .spen{
+        @apply uppercase bg-[#333333] px-[3px] text-[16px] md:text-[14px]  text-white h-6 dark:text-white;
+    }
+    .news{
+        @apply bg-[#E6EBF3]  cursor-pointer rounded-full px-1 md:px-4 py-2 text-center md:text-xl text-sm hover:bg-gray-400 transition-all duration-300;
+    }
+
+}

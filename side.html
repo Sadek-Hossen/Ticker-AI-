@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" id="htmlTag" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>ticker</title>
+</head>
+<body  class="dark:bg-gray-600">
+<!-- heding start -->
+ <header class=" md:mx-[20px]"> 
+  <nav class="flex justify-between items-center md:py-[20px] py-[20px]  md:px-[20px] px-[10px] ">
+  <div class="flex gap-3 md:gap-5 justify-center items-center">
+    <a href="index.html"><img src="image/tickerAI-logo 1.png" class="w-[20px] md:w-[70px]"></a>
+    <p class="text-[7px] md:text-[14px] dark:text-white">A Mark Cuban Company <br>
+AI-based Financial Market News Aggregator
+  </div>
+
+  <div class="flex justify-center items-center gap-[20px]">
+    <a href="index.html"><button class="bg-[#5677AC] text-[7px] md:text-[15px] rounded-md md:px-2 px-3 py-1 text-cyan-50 transition-all hover:bg-gray-400 hover:translate-y-1 hover:scale-115 ">Personalize News </button></a>
+    <span class="bg-[#5677AC26] px-2 md:px- md:py-1 rounded-full hover:bg-blue-200 transition font-semibold dark:text-white ">IK</span>
+  <button id="switch" type="submit"> <img class="w-[20px] animate-pulse bg-amber-50" src="image/Vector.png" alt="togle"></button>
+  </div>
+  </nav>
+</header>
+<!-- header section end -->
+
+<section class="bg-[#F0F0F0] dark:bg-black">
+    <h3 class="py-[10px] font-semibold  border-b-[2px]
+    md:border-b-[3px] md:mx-[100px] mx-[40px] dark:text-white ">Personolize your news</h3>
+    <section class=" mx-auto md:mx-[200px] w-[50%] py-5">
+    
+    <div  class=" md:w-[80%] w-full md:mx-auto mx-auto bg-white p-4 space-y-[10px]">
+        <h4 class="pb-3 text-center">Select your  Markets</h4>
+        <p class="news">Stocks</p>
+        <p class="news">Crypto</p>
+        <p class="news">Economy & Business</p>
+        <p class="news">Commodities | Forex</p>
+        <button class="bg-[#5677AC] w-full rounded-full py-[8px] transition hover:bg-gray-600 duration-300 cursor-pointer mb-[30px] mt-[10px]">Continue</button>
+    </div>
+    </section>
+</section>
+
+<footer class="text-center font-bold text-[10px] md:text-xl bg-black text-white ">
+  The ticker AI @2025
+</footer>
+
+
+<script>
+  const htmlTag= document.getElementById("htmlTag")
+    document.getElementById("switch").addEventListener("click",function () {
+      htmlTag.classList.toggle("white");
+      console.log("hello world")
+    })
+</script>
+
+</body>
+</html >
