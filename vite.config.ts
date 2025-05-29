@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'index.html'),
-        page2: path.resolve(__dirname, 'page2.html'),
+        page2: path.resolve(__dirname, 'side.html'),
       },
     },
   },
